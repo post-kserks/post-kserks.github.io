@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post-kserks — Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>post-kserks</h1>
+            <p class="subtitle">Developer · Python · Go · C++</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="projects">
+            <article class="card">
+                <div class="card-header">
+                    <h2>Morph</h2>
+                    <span class="lang-badge python">Python</span>
+                </div>
+                <p class="card-desc">Telegram-бот для конвертации файлов любых типов: изображения, видео, аудио, документы, таблицы и электронные книги.</p>
+                <ul class="features">
+                    <li>Определение формата по magic-байтам</li>
+                    <li>Асинхронная очередь задач с воркерами</li>
+                    <li>Чистая архитектура (Clean Architecture)</li>
+                    <li>Docker-ready деплой</li>
+                </ul>
+                <div class="tech-stack">
+                    <span>aiogram 3.x</span>
+                    <span>FFmpeg</span>
+                    <span>Pillow</span>
+                    <span>LibreOffice</span>
+                    <span>Docker</span>
+                </div>
+                <a href="https://github.com/post-kserks/Morph" class="card-link" target="_blank">GitHub →</a>
+            </article>
+
+            <article class="card">
+                <div class="card-header">
+                    <h2>TempMail</h2>
+                    <span class="lang-badge python">Python</span>
+                </div>
+                <p class="card-desc">CLI/TUI-инструмент для создания временных email-адресов с автоматическим извлечением кодов подтверждения.</p>
+                <ul class="features">
+                    <li>Интерактивный TUI-интерфейс</li>
+                    <li>Мультипровайдер (mail.tm, Guerrilla, tempmail-lol)</li>
+                    <li>Извлечение кодов подтверждения</li>
+                    <li>Параллельные сессии с именами</li>
+                </ul>
+                <div class="tech-stack">
+                    <span>typer</span>
+                    <span>rich</span>
+                    <span>BeautifulSoup</span>
+                    <span>pytest</span>
+                </div>
+                <a href="https://github.com/post-kserks/tempmail" class="card-link" target="_blank">GitHub →</a>
+            </article>
+
+            <article class="card">
+                <div class="card-header">
+                    <h2>VaultDB (Alpha)</h2>
+                    <span class="lang-badge go">Go</span>
+                    <span class="lang-badge cpp">C++</span>
+                </div>
+                <p class="card-desc">Гибридная SQL СУБД следующего поколения — реляционная алгебра, документные хранилища и векторные запросы для AI в одном движке.</p>
+                <ul class="features">
+                    <li>AI-native SQL с семантическим поиском</li>
+                    <li>Schema-free с автоинференсом типов</li>
+                    <li>Live Queries в реальном времени</li>
+                    <li>Встроенные миграции и авто REST API</li>
+                    <b></b>
+                    <li>Проект пока что находится в активной разработке. Основная часть готова, идёт процесс дебаггинга</li>
+                </ul>
+                <div class="tech-stack">
+                    <span>Go 1.21+</span>
+                    <span>C++/CMake</span>
+                    <span>REST API</span>
+                    <span>Docker</span>
+                </div>
+                <a href="https://github.com/post-kserks/pro-labs" class="card-link" target="_blank">GitHub →</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="https://github.com/post-kserks" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
